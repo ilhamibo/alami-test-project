@@ -8,9 +8,8 @@
 ## Installation & Running
 
 After prerequisites has been setup. You have to make the program run. 
-  - Install `python` ( >= v3.6 is recommended), `pip`, `virtualenv`
+  - Install `python` ( >= v3.6 is recommended)
   - go to inside directory `alami-test-project/`
-  - Acitvation python virtualenv with this command `source venv/bin/activate`
   - there are 2 files, first is `non_thread_mechanism.py` and the second is `thread_mechanism.py` 
   - if you want execute without thread mechanism just using this command `python non_thread_mechanism.py` that script will read data from `Before Eod.csv` and write the result into this file `After Eod.csv`
   - if you want execute with thread mechanism just using this command `python thread_mechanism.py` that script will read data from `Before Eod.csv` and write the result into these files `After Eod_1.csv, After Eod_2.csv, After Eod_3.csv, After Eod_4.csv`, each file have 50 data, because i'm use 4 thread for writing result into csv file.
